@@ -6,7 +6,7 @@ import client2 from "../assets/client2.png";
 import client3 from "../assets/client3.png";
 import client4 from "../assets/client4.png";
 
-import ThreeBar from "../assets/3 bar.svg";
+
 // Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";

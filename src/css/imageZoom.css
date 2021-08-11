@@ -39,6 +39,9 @@
 
 }
 
+.box_write{
+  width: 100%;
+}
 
 @media only screen and (max-width: 768px){
     .project_nav{
@@ -54,4 +57,13 @@
     .image_items{
     padding: 0 20px;
     }
+    .box_write{
+      width: 400px;
+    }
 }
+@media only screen and (max-width: 468px){
+    .box_write{
+        width: 100%;
+      }
+}
+

@@ -7,7 +7,7 @@ const ContactMe = () => {
     <div className="contact_me">
       <TitleStyle>CONTACT ME</TitleStyle>
 
-      <div className="form_header">
+      <div className="form_header" id="contact">
         <div className="form_inside">
           <h3>FILL THE FORM</h3>
           <form action="" className="form_style">

@@ -22,6 +22,10 @@ body{
 }
 .box_write{
     color: var(--another-text);
+ 
+}
+.footer_image{
+  color: var(--another-text);
 }
 
 

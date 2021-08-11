@@ -35,11 +35,9 @@ export const MotionStyle2 = (props) => {
         bottom: 100,
       }}
       animate={{
-        // scale: [1, 2, 1],
-        x:[100.-100,50],
-   
+        rotateX: 360,
+        rotateY:90
       }}
-   
       transition={{
         duration: 5,
         ease: "easeInOut",

@@ -65,7 +65,7 @@ const Navbar = () => {
         </Link>
         <Link to="/" onClick={() => scrollTo("#skill")}>my skill</Link>
 
-        <Link to="/" onClick={() => scrollTo("#my_portfolio_here")}>
+        <Link to="/" onClick={() => scrollTo("#portfolio")}>
           my portfolio
         </Link>
        <ToggleFunction/>

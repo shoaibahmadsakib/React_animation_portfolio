@@ -11,7 +11,7 @@ import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 import "swiper/components/pagination/pagination.min.css";
 
 // Import Images
-import img1 from "../assets/photo1.png";
+import img1 from "../assets/project1.jpg";
 import img2 from "../assets/photo2.png";
 import img3 from "../assets/photo3.png";
 import img4 from "../assets/photo4.png";

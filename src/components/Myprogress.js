@@ -11,7 +11,7 @@ import TitleStyle from './title component/TitleStyle';
 
 const Myprogress = () => {
     return (
-        <div className="my_progress">
+        <div className="my_progress" id="skill">
            <TitleStyle>MY PROGRESS</TitleStyle>
             <div className="progress_title">
                <h3>FRONTEND SKILL</h3>

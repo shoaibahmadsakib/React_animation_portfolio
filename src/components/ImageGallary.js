@@ -1,5 +1,9 @@
 import myPhoto from '../assets/image1.png'
-
+import project1 from "../assets/project1.jpg"
+import project2 from "../assets/project2.png"
+import project3 from "../assets/project3.png"
+import project4 from "../assets/project4.png"
+import project5 from "../assets/project5.png"
 export const photos = [
     {
       src: myPhoto,
@@ -7,18 +11,19 @@ export const photos = [
       height: 3,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['html', 'css']
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+      src: project1,
       width: 1,
       height: 1,
       title:'heading',
-      describtion:'hello sakib',
+      describtion:'hello sakib i an adaa addfdfbef ef e b i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef e',
       catagory:['html', 'css']
     },
     {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+      src:project2,
       width: 3,
       height: 4,
       title:'heading',
@@ -26,7 +31,7 @@ export const photos = [
       catagory:['html', 'css']
     },
     {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+      src:project2,
       width: 3,
       height: 4,
       title:'heading',
@@ -34,7 +39,7 @@ export const photos = [
       catagory:['python', 'html']
     },
     {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+      src: project4,
       width: 3,
       height: 4,
       title:'heading',
@@ -42,7 +47,7 @@ export const photos = [
       catagory:['nodejs', 'css']
     },
     {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+      src:project5,
       width: 4,
       height: 3,
       title:'heading',

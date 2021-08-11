@@ -6,7 +6,7 @@ import image2 from "../assets/image2.png";
 
 const About = () => {
   return (
-    <div className="about_me">
+    <div className="about_me" id="about">
       <div className="about_two_section">
         <div className="my_photo">
           <img src={myImage} alt="myPhoto" />
@@ -24,13 +24,9 @@ const About = () => {
       </div>
       <div className="about_two_section">
         <div className="my_describtion">
-          <h1>about me</h1>
+          <h1>Figma Project</h1>
           <p>
-            Hello sir, I am a professional UI designer and react js developer. I
-            am fully expert in adobe xd, adobe photoshop figma for mobile and
-            web UI design. I can design a Landing page, Admin page, Dashboard,
-            and so many other designs with many new sources and beautiful modern
-            design. You can hire me with a small amount
+          Hello sir, I am a professional UI designer.This is a simple design with Figma. I have many figma design
           </p>
         </div>
         <div className="my_photo">
@@ -42,13 +38,9 @@ const About = () => {
           <img src={image2} alt="myPhoto" />
         </div>
         <div className="my_describtion">
-          <h1>about me</h1>
+          <h1>XD</h1>
           <p>
-            Hello sir, I am a professional UI designer and react js developer. I
-            am fully expert in adobe xd, adobe photoshop figma for mobile and
-            web UI design. I can design a Landing page, Admin page, Dashboard,
-            and so many other designs with many new sources and beautiful modern
-            design. You can hire me with a small amount
+            Hello sir, I am a professional UI designer.This is a simple design with Figma
           </p>
         </div>
       </div>

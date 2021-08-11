@@ -6,7 +6,7 @@ import Type from "./Type/Type";
 
 const Header = () => {
   return (
-    <div className="top_Header">
+    <div className="top_Header" id="home">
       <div className="header_two_part">
         <div className="header_textpart">
           <h1>hi, this is Shoaib</h1>
