@@ -78,10 +78,10 @@
   height: 50px;
   width: 50px;
   position: absolute;
-  z-index: 4;
+  z-index: 3;
   top: 200px;
   background: rgba(121, 139, 60, 0.44);
-  left: 400px;
+  left: 100px;
 }
 
 .tringle2 {
@@ -144,5 +144,8 @@
   }
   .type_style{
     font-size: 20px;
+  }
+  .header_animation_part{
+    
   }
 }

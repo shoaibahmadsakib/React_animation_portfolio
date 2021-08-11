@@ -4,7 +4,7 @@ import "../css/client.css";
 import { Container } from "react-bootstrap";
 // Light box adding method
 import { SRLWrapper } from "simple-react-lightbox";
-import ThreeBar from '../assets/3 bar.svg'
+import ThreeBar from "../assets/3 bar.svg";
 // Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css";
@@ -18,20 +18,19 @@ import img4 from "../assets/photo4.png";
 import img5 from "../assets/photo5.png";
 // import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
-
+import TitleStyle from "./title component/TitleStyle";
 // install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination]);
 
 const Work = () => {
   return (
     <div className="work">
-      <div className="text">
-        <h1>SAMPLE PROJECT</h1>
-      <img src={ThreeBar} alt="" />
-      </div>
-      <Container style={{height:'auto'}}>
+     
+        <TitleStyle>SAMPLE PROJECT</TitleStyle>
+     
+      <Container style={{ height: "auto" }}>
         <Swiper
-        style={{zIndex:'0'}}
+          style={{ zIndex: "0" }}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}

@@ -18,7 +18,7 @@
 }
 .form_inside {
   position: relative;
- top: .5in;
+  top: 0.5in;
 }
 .form_header h3 {
   padding: 10px 0px;
@@ -43,4 +43,21 @@
   width: 400px;
   border: none;
   outline: none;
+}
+
+@media only screen and (max-width: 468px) {
+  .form_header {
+    width: 100%;
+    margin: 0;
+  }
+
+  .form_style {
+    width: 100%;
+  }
+  .form_style input[type="text" i] {
+    width: 350px;
+  }
+  .form_style textarea {
+    width: 350px;
+  }
 }
