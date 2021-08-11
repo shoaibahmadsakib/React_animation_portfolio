@@ -1,0 +1,37 @@
+.about_me {
+
+  padding: 100px 200px;
+}
+.my_photo {
+ 
+}
+.my_photo img {
+  width: 350px;
+  height: 400px;
+}
+.about_two_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 10px;
+}
+.my_describtion {
+  width: 601px;
+  height: 525px;
+
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 55px;
+  text-align: left;
+}
+.my_describtion p{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px){
+  .about_me{
+    padding: 50px 20px;
+  }
+}

@@ -1,0 +1,47 @@
+.my_progress{
+    margin-top: 100px;
+}
+
+.progress_heading{
+padding: 0px 200px 40px 200px;
+}
+
+
+.progress_title{
+    display: flex;
+    justify-content: center;
+}
+
+.front_end_Card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    padding: 0px 200px;
+   grid-gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+.first_card,
+.second_card,
+.third_card,
+.forth_card,
+.fift_card{
+    display: flex;
+    justify-content: center;
+
+}
+
+.first_card img,
+.second_card img,
+.third_card img,
+.forth_card img,
+.fift_card img
+{
+    height: 300px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px){
+.front_end_Card{
+padding: 50px 30px;
+    }
+}

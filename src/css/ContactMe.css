@@ -1,0 +1,46 @@
+.contact_me {
+}
+.contactMe_header {
+  padding: 100px 200px 0px 200px;
+}
+.form_header {
+  text-align: center;
+  background-image: url("../assets/contactform.png");
+
+  width: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: contain;
+  margin: 42px;
+  height: 6in;
+}
+.form_inside {
+  position: relative;
+ top: .5in;
+}
+.form_header h3 {
+  padding: 10px 0px;
+}
+.form_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-column-gap: 20px;
+  row-gap: 32px;
+}
+.form_style input[type="text" i] {
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.form_style textarea {
+  border-radius: 10px;
+  width: 400px;
+  border: none;
+  outline: none;
+}

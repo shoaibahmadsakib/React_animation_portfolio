@@ -1,0 +1,22 @@
+.footer_image{
+    background-image: url("../assets/footerimage.png");
+   
+    height:auto;
+    width: 100%;
+    background-position: center;
+}
+.footer_three_section{
+    display: grid;
+   
+    padding-top: 3in;
+  padding-bottom: 1in;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    justify-items: center;
+    row-gap: 38px;
+}
+
+.scroll-to-top{
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+}
