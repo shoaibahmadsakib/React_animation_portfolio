@@ -13,9 +13,18 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
+ 
   grid-gap: 10px;
 }
+.about_two_section_reverse{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+ 
+  grid-gap: 10px;
+}
+
 .my_describtion {
   width: 601px;
   height: 525px;

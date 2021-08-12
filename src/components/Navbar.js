@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import myLogo from '../assets/mylogo.png'
+import myLogo from "../assets/mylogo.png";
 import "../css/Navbar.css";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import ToggleFunction from "./Theme/ToggleTheme";
-
 
 const Navbar = () => {
   const [show, setShow] = useState(true);
@@ -31,7 +30,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    // window.onResize = 
+    // window.onResize =
   });
 
   let navbarClasses = ["nav_bar"];
@@ -39,17 +38,12 @@ const Navbar = () => {
     navbarClasses.push("scrolled");
   }
 
-
-
   // resize
- 
-
 
   return (
     <div className={navbarClasses.join(" ")}>
       <div className="nav_part1">
         <Link to="/">
-         
           <img src={myLogo} alt="logo" />
         </Link>
       </div>
@@ -60,15 +54,18 @@ const Navbar = () => {
         <Link to="/" onClick={() => scrollTo("#about")}>
           About
         </Link>
-        <Link to="/contact" onClick={() => scrollTo("#contact")}>
-          Contact
+
+        <Link to="/" onClick={() => scrollTo("#skill")}>
+          my skill
         </Link>
-        <Link to="/" onClick={() => scrollTo("#skill")}>my skill</Link>
 
         <Link to="/" onClick={() => scrollTo("#portfolio")}>
           my portfolio
         </Link>
-       <ToggleFunction/>
+        <Link to="/" onClick={() => scrollTo("#contact")}>
+          Contact
+        </Link>
+        <ToggleFunction />
       </div>
       <div
         className="hambarer"
@@ -78,8 +75,8 @@ const Navbar = () => {
       >
         <i
           onClick={clickHandler}
-          className={hamberger ?  "fas fa-hamburger":"fas fa-times" }
-          style={{ fontSize: "29px", color:'#fff'}}
+          className={hamberger ? "fas fa-hamburger" : "fas fa-times"}
+          style={{ fontSize: "29px", color: "#fff" }}
         ></i>
       </div>
     </div>

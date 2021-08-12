@@ -19,6 +19,7 @@ export const photos = [
       width: 1,
       height: 1,
       title:'heading',
+      button:'https://material-ui.com/api/button/',
       describtion:'hello sakib i an adaa addfdfbef ef e b i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef e',
       catagory:['html', 'css']
     },
@@ -28,6 +29,7 @@ export const photos = [
       height: 4,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['html', 'css']
     },
     {
@@ -36,6 +38,7 @@ export const photos = [
       height: 4,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['python', 'html']
     },
     {
@@ -44,6 +47,7 @@ export const photos = [
       height: 4,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['nodejs', 'css']
     },
     {
@@ -52,6 +56,7 @@ export const photos = [
       height: 3,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['html', 'css']
     },
    
@@ -61,6 +66,7 @@ export const photos = [
       height: 3,
       title:'heading',
       describtion:'hello sakib',
+      button:'https://material-ui.com/api/button/',
       catagory:['nodejs', 'css']
     }
   ];

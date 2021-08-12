@@ -11,6 +11,7 @@ import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 import "swiper/components/pagination/pagination.min.css";
 
 // Import Images
+
 import img1 from "../assets/project1.jpg";
 import img2 from "../assets/photo2.png";
 import img3 from "../assets/photo3.png";
@@ -23,11 +24,10 @@ import TitleStyle from "./title component/TitleStyle";
 SwiperCore.use([EffectCoverflow, Pagination]);
 
 const Work = () => {
+
   return (
     <div className="work">
-     
-        <TitleStyle>SAMPLE PROJECT</TitleStyle>
-     
+      <TitleStyle>SAMPLE PROJECT</TitleStyle>
       <Container style={{ height: "auto" }}>
         <Swiper
           style={{ zIndex: "0" }}

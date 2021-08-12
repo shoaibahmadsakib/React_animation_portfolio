@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/Footer.css";
-import instagrame from "../assets/instagram.png";
-import fb from "../assets/Path 1205.png";
+
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
 import Button from "@material-ui/core/Button";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -42,23 +41,14 @@ const Footer = () => {
           </h1>
           <h3>STAY IN TOUCH</h3>
           <div className="social_icon">
-            <Button 
-            href="https://github.com/shoaibahmadsakib"
-            >
-            
-              <FacebookIcon style={{color:'white'}}/>
+            <Button href="https://github.com/shoaibahmadsakib">
+              <FacebookIcon style={{ color: "white" }} />
             </Button>
-            <Button
-             href="https://www.facebook.com/shoaibahmadsakib123"
-            >
-             
-              <LinkedInIcon style={{color:'white'}} />
+            <Button href="https://www.facebook.com/shoaibahmadsakib123">
+              <LinkedInIcon style={{ color: "white" }} />
             </Button>
-            <Button
-             href="www.linkedin.com/in/shoaib-ahmad-sakib-a0376a191"
-            >
-             
-              <GitHubIcon style={{color:'white'}}/>
+            <Button href="www.linkedin.com/in/shoaib-ahmad-sakib-a0376a191">
+              <GitHubIcon style={{ color: "white" }} />
             </Button>
           </div>
         </div>

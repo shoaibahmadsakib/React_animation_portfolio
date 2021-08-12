@@ -1,5 +1,4 @@
 import React from "react";
-import ThreeBar from "../assets/3 bar.svg";
 import ReactImg from "../assets/Icon awesome-react.png";
 import Xd from "../assets/Icon simple-adobexd.png";
 import Js from "../assets/Icon awesome-js-square.png";
@@ -8,6 +7,7 @@ import css from "../assets/Icon awesome-css3.png";
 import bootstrap from "../assets/Icon awesome-bootstrap.png";
 import "../css/technology.css";
 import TitleStyle from "./title component/TitleStyle";
+
 const Techonology = () => {
   return (
     <div className="technology_i_use">
