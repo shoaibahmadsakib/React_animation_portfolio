@@ -42,13 +42,13 @@ const Footer = () => {
           <h3>STAY IN TOUCH</h3>
           <div className="social_icon">
             <Button href="https://github.com/shoaibahmadsakib">
-              <FacebookIcon style={{ color: "white" }} />
+              <GitHubIcon style={{ color: "white" }} />
             </Button>
             <Button href="https://www.facebook.com/shoaibahmadsakib123">
-              <LinkedInIcon style={{ color: "white" }} />
+              <FacebookIcon style={{ color: "white" }} />
             </Button>
-            <Button href="www.linkedin.com/in/shoaib-ahmad-sakib-a0376a191">
-              <GitHubIcon style={{ color: "white" }} />
+            <Button href="https://www.linkedin.com/in/shoaib-ahmad-sakib-a0376a191/">
+              <LinkedInIcon style={{ color: "white" }} />
             </Button>
           </div>
         </div>
