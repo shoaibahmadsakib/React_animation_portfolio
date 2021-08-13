@@ -10,6 +10,7 @@ git clone https://github.com/shoaibahmadsakib/React_animation_portfolio.git
 ## you can now
 
 npm install
+
 npm start
 
 and add your project✌
