@@ -3,6 +3,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## here you can use this project
+
+git clone https://github.com/shoaibahmadsakib/React_animation_portfolio.git
+
+## you can now
+
+npm install
+npm start
+
+and add your project✌
+
 ## Available Scripts
 
 In the project directory, you can run:
