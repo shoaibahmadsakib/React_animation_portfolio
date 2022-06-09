@@ -17,6 +17,10 @@ import img2 from "../assets/photo2.png";
 import img3 from "../assets/photo3.png";
 import img4 from "../assets/photo4.png";
 import img5 from "../assets/photo5.png";
+import img6 from "../assets/newproject1.png";
+import img7 from "../assets/newproject2.png";
+import img8 from "../assets/newproject3.png";
+import img9 from "../assets/newproject4.png";
 // import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 import TitleStyle from "./title component/TitleStyle";
@@ -48,16 +52,16 @@ const Work = () => {
         >
           <SRLWrapper>
             <SwiperSlide>
-              <img alt="" src={img1} />
+              <img alt="" src={img6} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img2} />
+              <img alt="" src={img7} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img4} />
+              <img alt="" src={img8} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img3} />
+              <img alt="" src={img9} />
             </SwiperSlide>
             <SwiperSlide>
               <img alt="" src={img5} />

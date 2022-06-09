@@ -10,6 +10,8 @@ const ContactMe = () => {
       <div className="form_header">
         <div className="form_inside">
           <h3>FILL THE FORM</h3>
+
+          
           <form action="" className="form_style">
             <input type="text" placeholder="input your name" />
             <input type="text" placeholder="input your email" />

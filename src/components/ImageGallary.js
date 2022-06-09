@@ -9,9 +9,9 @@ export const photos = [
       src: myPhoto,
       width: 4,
       height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
+      title:'Car Review Website',
+      describtion:'Car Review Website',
+      button:' https://cozy-sunflower-b225d4.netlify.app/',
       catagory:['html', 'css']
     },
     {
