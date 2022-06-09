@@ -60,7 +60,7 @@ const ImageZoom = () => {
                 />
                 <div className="box_write">
                   <h1>{photo.title}</h1>
-                  <p>{photo.describtion}</p>
+                  <p>{photo.describtion?.slice(0, 50).concat("...")}</p>
                   <Button
                     variant="contained"
                     style={{ backgroundColor: "rgb(132 70 171)" , color:'#ffffff'}}
