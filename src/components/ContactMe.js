@@ -11,8 +11,7 @@ const ContactMe = () => {
         <div className="form_inside">
           <h3>FILL THE FORM</h3>
 
-          
-          <form action="" className="form_style">
+          {/* <form action="" className="form_style">
             <input type="text" placeholder="input your name" />
             <input type="text" placeholder="input your email" />
             <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -23,7 +22,11 @@ const ContactMe = () => {
             >
               Submit
             </Button>
+          </form> */}
+          <form>
+         
           </form>
+         
         </div>
       </div>
     </div>
