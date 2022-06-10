@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/style.css";
 import Button from "@material-ui/core/Button";
-import{ MotionStyle, MotionStyle2} from "./Motion/MotionStyle";
+import { MotionStyle, MotionStyle2 } from "./Motion/MotionStyle";
 import Type from "./Type/Type";
-
+import resume from "../assets/images/Resume.pdf";
 const Header = () => {
   return (
     <div className="top_Header" id="home">
@@ -13,9 +13,18 @@ const Header = () => {
           <div className="type_style">
             <Type />
           </div>
-          <Button size="large" style={{zIndex:3}} variant="contained" color="secondary">
-            CONTACT ME
-          </Button>
+
+          <a href={resume} download="Resume.pdf">
+            <Button
+              size="large"
+              style={{ zIndex: 3 }}
+              variant="contained"
+              color="secondary"
+              type="submit"
+            >
+              Resume
+            </Button>
+          </a>
         </div>
         <div className="header_animation_part">
           <MotionStyle className="circle1" />
