@@ -4,8 +4,11 @@ import { photos } from "../components/ImageGallary";
 import Button from "@material-ui/core/Button";
 import "../css/imageZoom.css";
 import TitleStyle from "./title component/TitleStyle";
+import { Link ,useParams } from "react-router-dom";
 
 const ImageZoom = () => {
+
+
   const [projects, setProject] = useState(photos);
 
   const projectFilterItem = (name) => {
@@ -61,13 +64,20 @@ const ImageZoom = () => {
                 <div className="box_write">
                   <h1>{photo.title}</h1>
                   <p>{photo.describtion?.slice(0, 50).concat("...")}</p>
-                  <Button
-                    variant="contained"
-                    style={{ backgroundColor: "rgb(132 70 171)" , color:'#ffffff'}}
-                    href={photo.button}
-                  >
-                    See details
-                  </Button>
+                 
+                   
+                    <Button
+                      variant="contained"
+                      style={{
+                        backgroundColor: "rgb(132 70 171)",
+                        color: "#ffffff",
+                      }}
+                  
+                    >
+                       <Link to={`/projects/${photo.id}`}> See details</Link>
+                     
+                    </Button>
+                 
                 </div>
               </div>
             </div>

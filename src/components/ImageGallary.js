@@ -1,13 +1,23 @@
 import myPhoto from '../assets/image1.png'
 import project1 from "../assets/p-3.png"
-import project2 from "../assets/project2.png"
+
 import project3 from "../assets/p-1.png"
 import project6 from "../assets/p-2.png"
-import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
+import ss1 from "../assets/images/Screenshot1.png"
+import ss2 from "../assets/images/Screenshot2.png"
+import ss3 from "../assets/images/Screenshot3.png"
+import ss4 from "../assets/images/Screenshot4.png"
+import ss5 from "../assets/images/Screenshot5.png"
+import ss6 from "../assets/images/Screenshot6.png"
+import ss7 from "../assets/images/Screenshot7.png"
+import ss8 from "../assets/images/Screenshot8.png"
 export const photos = [
     {
+      id: 1,
       src: project1,
+      ss1: ss4,
+      ss2: ss5,
+      ss3: "",
       width: 4,
       height: 3,
       title:'Car Review Website',
@@ -16,16 +26,26 @@ export const photos = [
       catagory:['html', 'css']
     },
     {
+      id:2,
       src: project3,
       width: 1,
       height: 1,
-      title:'heading',
+      title:'manufacturer-website',
       button:'https://manufacturer-website-ad7b7.web.app/',
+      ss1: ss1,
+      ss2: ss2,
+      ss3: ss3,
+
       describtion:'We Supply all kinds of manufacturer product in our daily life Such that: hammer, drill machine, screwdriver, wrench, Pliers, Measuring Tape, Chisel etc. You can simple buy here',
       catagory:['html', 'css']
     },
     {
+      id:3,
       src:project6,
+      ss1: ss6,
+      ss2: ss7,
+      ss3: ss8,
+     
       width: 3,
       height: 4,
       title:'Vehicles House',
@@ -33,42 +53,6 @@ export const photos = [
       button:'https://ware-house-website.web.app/',
       catagory:['html', 'css']
     },
-    {
-      src:project2,
-      width: 3,
-      height: 4,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['python', 'html']
-    },
-    {
-      src: project4,
-      width: 3,
-      height: 4,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['nodejs', 'css']
-    },
-    {
-      src:project5,
-      width: 4,
-      height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['html', 'css']
-    },
    
-    {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 4,
-      height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['nodejs', 'css']
-    }
   ];
   

@@ -1,30 +1,37 @@
-import About from "./About";
-import ClientPage from "./ClientPage";
-import ClientShow from "./ClientShow";
-import Header from "./Header";
-import ImageZoom from "./ImageZoom";
-import Techonology from "./Techonology";
-import Myprogress from "./Myprogress";
-import ContactMe from "./ContactMe";
+
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import {BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
+import HomePage from "../Pages/HomePage";
+import AboutMe from "../Pages/AboutMe";
+
 
 const AllComponent = () => {
   return (
-    <Router>
+    <>
+    
       <Navbar />
-      <Header />
+      {/* <Header />
       <About />
       <ClientPage />
       <ClientShow />
+    
+
       <ImageZoom />
       <Techonology />
       <Myprogress />
-      <ContactMe />
+      <ContactMe /> */}
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
+        <Route path="/Aboutme" element={<AboutMe></AboutMe>}></Route>
+        <Route path="/projects/:id" element={<ProjectDetails></ProjectDetails>}></Route>
+      </Routes>
+    
       <Footer />
-    </Router>
+  
+    </>
   );
 };
 
-export default AllComponent
+export default AllComponent;
