@@ -12,10 +12,9 @@ import "swiper/components/pagination/pagination.min.css";
 
 // Import Images
 
-import img1 from "../assets/project1.jpg";
-import img2 from "../assets/photo2.png";
+
 import img3 from "../assets/photo3.png";
-import img4 from "../assets/photo4.png";
+
 import img5 from "../assets/photo5.png";
 import img6 from '../assets/sample_projects/site1.jpg'
 import img7 from '../assets/sample_projects/site2.png'
@@ -51,16 +50,16 @@ const Work = () => {
         >
           <SRLWrapper>
             <SwiperSlide>
-              <img alt="" src={img1} />
+              <img alt="" src={img6} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img2} />
+              <img alt="" src={img7} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img4} />
+              <img alt="" src={img8} />
             </SwiperSlide>
             <SwiperSlide>
-              <img alt="" src={img3} />
+              <img alt="" src={img9} />
             </SwiperSlide>
             <SwiperSlide>
               <img alt="" src={img5} />

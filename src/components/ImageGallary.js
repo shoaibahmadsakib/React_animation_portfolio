@@ -1,12 +1,16 @@
-import myPhoto from '../assets/my_portfolio.png'
+
 import project1 from "../assets/sample_projects/site2.png"
-import project2 from "../assets/project2.png"
+
 import project3 from "../assets/vehicles.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 export const photos = [
     {
-      src: myPhoto,
+      id: 1,
+      src: project1,
+      ss1: ss4,
+      ss2: ss5,
+      ss3: "",
       width: 4,
       height: 3,
       title:'React Animation Website',
@@ -15,7 +19,8 @@ export const photos = [
       catagory:['html', 'css']
     },
     {
-      src: project1,
+      id:2,
+      src: project3,
       width: 1,
       height: 1,
       title:'MERN Ecommerce',

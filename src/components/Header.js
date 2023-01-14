@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import Button from "@material-ui/core/Button";
-import{ MotionStyle, MotionStyle2} from "./Motion/MotionStyle";
+import { MotionStyle, MotionStyle2 } from "./Motion/MotionStyle";
 import Type from "./Type/Type";
 
 const Header = () => {

@@ -5,7 +5,10 @@ import Button from "@material-ui/core/Button";
 import "../css/imageZoom.css";
 import TitleStyle from "./title component/TitleStyle";
 
+
 const ImageZoom = () => {
+
+
   const [projects, setProject] = useState(photos);
 
   const projectFilterItem = (name) => {

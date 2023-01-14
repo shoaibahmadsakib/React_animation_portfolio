@@ -19,6 +19,24 @@
   position: relative;
   top: 36%;
   text-align: center;
+  
 }
 
+
+.details_style{ 
+  margin: 10px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-gap: 10px;
+}
+.photo_details img{
+  width: 100%;
+}
+.three_image{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  grid-gap: 10px;
+}
 /*  */

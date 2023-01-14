@@ -38,6 +38,13 @@
   outline: none;
   border: none;
 }
+.form_style input[type="email" i] {
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
 .form_style textarea {
   border-radius: 10px;
   width: 400px;
