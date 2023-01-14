@@ -1,7 +1,7 @@
-import myPhoto from '../assets/image1.png'
-import project1 from "../assets/project1.jpg"
+import myPhoto from '../assets/my_portfolio.png'
+import project1 from "../assets/sample_projects/site2.png"
 import project2 from "../assets/project2.png"
-import project3 from "../assets/project3.png"
+import project3 from "../assets/vehicles.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 export const photos = [
@@ -9,65 +9,49 @@ export const photos = [
       src: myPhoto,
       width: 4,
       height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
+      title:'React Animation Website',
+      describtion:'This is my personal Portfolio. Here I use all most every fornt-end technology',
+      button:'https://shoaibahmadsakib.netlify.app/',
       catagory:['html', 'css']
     },
     {
       src: project1,
       width: 1,
       height: 1,
-      title:'heading',
-      button:'https://material-ui.com/api/button/',
-      describtion:'hello sakib i an adaa addfdfbef ef e b i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef eb i an adaa addfdfbef ef e',
+      title:'MERN Ecommerce',
+      button:'https://github.com/shoaibahmadsakib/Ecommerce-MERN',
+      describtion:'This is completly mern Ecommerce project',
       catagory:['html', 'css']
     },
+    
     {
-      src:project2,
+      src:project3,
       width: 3,
       height: 4,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['html', 'css']
-    },
-    {
-      src:project2,
-      width: 3,
-      height: 4,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
+      title:'Vehicles House',
+      describtion:'This is a Warehouse website. This is car warehouse site.This site provide you every collection of vehicles.',
+      button:'https://ware-house-website.web.app/',
       catagory:['python', 'html']
     },
     {
       src: project4,
       width: 3,
       height: 4,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
+      title:'Linkedin Ui Clone',
+      describtion:'This is UI Linkedin Clone not any Functionality',
+      button:'https://github.com/shoaibahmadsakib/LinkedIn-UI-With-styled-component',
       catagory:['nodejs', 'css']
     },
     {
       src:project5,
       width: 4,
       height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
+      title:'Car House',
+      describtion:'Car house Projects',
+      button:'https://github.com/shoaibahmadsakib/',
       catagory:['html', 'css']
     },
    
-    {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 4,
-      height: 3,
-      title:'heading',
-      describtion:'hello sakib',
-      button:'https://material-ui.com/api/button/',
-      catagory:['nodejs', 'css']
-    }
+   
   ];
   

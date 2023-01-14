@@ -17,6 +17,9 @@ import img2 from "../assets/photo2.png";
 import img3 from "../assets/photo3.png";
 import img4 from "../assets/photo4.png";
 import img5 from "../assets/photo5.png";
+import img6 from '../assets/sample_projects/site1.jpg'
+import img7 from '../assets/sample_projects/site2.png'
+import img8 from '../assets/sample_projects/site3.jpg'
 // import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 import TitleStyle from "./title component/TitleStyle";
@@ -64,6 +67,15 @@ const Work = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img alt="" src={img3} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img alt="" src={img6} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img alt="" src={img7} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img alt="" src={img8} />
             </SwiperSlide>
           </SRLWrapper>
         </Swiper>

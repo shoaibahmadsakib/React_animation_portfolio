@@ -19,12 +19,14 @@ const AboutMe = [
     Heading: "Figma Project",
     describtion:
       "  Hello sir, I am a professional UI designer.This is a simple design with Figma. I have many figma design",
+    link:" https://www.figma.com/files/recent?fuid=994232497674651916"
   },
   {
     className: "about_two_section",
     Image: image2,
     Heading: "Figma Project",
     describtion:"Hello sir, I am a professional UI designer.This is a simple design with Figma. I have many figma design",
+    link:" https://www.figma.com/files/recent?fuid=994232497674651916"
   },
 ];
 
@@ -39,6 +41,7 @@ const About = () => {
           <div className="my_describtion">
             <h1>{myself.Heading}</h1>
             <p>{myself.describtion}</p>
+            <a href={myself.link}>Figma link</a>
           </div>
         </div>
       ))}

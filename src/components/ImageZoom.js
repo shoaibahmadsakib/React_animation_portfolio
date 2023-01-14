@@ -59,7 +59,7 @@ const ImageZoom = () => {
                   showRotate={true}
                 />
                 <div className="box_write">
-                  <h1>{photo.title}</h1>
+                  <h3>{photo.title}</h3>
                   <p>{photo.describtion}</p>
                   <Button
                     variant="contained"

@@ -3,7 +3,7 @@ import "../../css/theme change/ThemeChange.css";
 import { setTheme } from "./ThemeChange";
 
 const ToggleFunction = () => {
-  const [togClass, setTogClass] = useState("dark");
+  const [togClass, setTogClass] = useState("light");
   let theme = localStorage.getItem("theme");
 
   const handleOnClick = () => {
@@ -17,12 +17,12 @@ const ToggleFunction = () => {
   };
 
   useEffect(() => {
-    if (localStorage.getItem("theme") === "theme-dark") {
-      setTogClass("dark");
-    } else if (localStorage.getItem("theme") === "theme-light") {
+    if (localStorage.getItem("theme") === "theme-light") {
       setTogClass("light");
+    } else if (localStorage.getItem("theme") === "theme-dark") {
+      setTogClass("dark");
     }
-  }, [theme]);
+  }, [theme,setTogClass]);
 
   return (
     <div className="container--toggle">

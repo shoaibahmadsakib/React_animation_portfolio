@@ -14,7 +14,7 @@ const Header = () => {
             <Type />
           </div>
           <Button size="large" style={{zIndex:3}} variant="contained" color="secondary">
-            CONTACT ME
+          <a href="myResume.pdf" download="myResume.pdf">Resume</a>
           </Button>
         </div>
         <div className="header_animation_part">
